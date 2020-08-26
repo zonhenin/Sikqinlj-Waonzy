@@ -19,5 +19,5 @@ close TR;
 open OUTPUT, "> :encoding(UTF-8)", 'tmp/epub.html';
 print OUTPUT $html;
 
-print OUTPUT '<h1 style="font-size: 0px;">庄府二楼平面图</h1>';
+print OUTPUT '<h1>庄府二楼平面图</h1>';
 print OUTPUT '<img src="庄府二楼平面图-r.jpg" alt="庄府二楼平面图" style="width: 100%;"></img>';

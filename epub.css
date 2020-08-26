@@ -10,11 +10,16 @@ body {
 	margin: 5%;
 	text-align: justify;
 	font-size: large;
+	background-color: #FFFFFF;
 }
 
 h1 {
 	text-align: center;
 	font-size: 150%;
+}
+
+#庄府二楼平面图 h1 {
+	display: none;
 }
 
 .zhrr-direct {
