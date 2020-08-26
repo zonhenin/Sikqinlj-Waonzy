@@ -1,3 +1,5 @@
+use utf8;
+
 open SRC, "< :encoding(UTF-8)", "title";
 undef $/;
 $title=<SRC>;

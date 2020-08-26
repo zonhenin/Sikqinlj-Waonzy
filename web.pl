@@ -1,3 +1,5 @@
+use utf8;
+
 open SRC, "< :encoding(UTF-8)", "tmp/text-styled.html";
 undef $/;
 $html=<SRC>;

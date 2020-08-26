@@ -1,5 +1,5 @@
 body {
-	font-family: BabelStone Han;
+	font-family: "BabelStone Han";
 	background-color: #666666;
 	font-size: 28px;
 }
@@ -32,8 +32,12 @@ body {
     width: 100%;
 }
 
-.footnotes {
+section.footnotes {
 	font-size: 75%;
+}
+
+h1.footnotes {
+	display: none;
 }
 
 h1 {
