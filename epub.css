@@ -18,7 +18,7 @@ h1 {
 	font-size: 150%;
 }
 
-#庄府二楼平面图 h1 {
+section h1.hidden {
 	display: none;
 }
 

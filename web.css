@@ -1,7 +1,10 @@
 body {
-	font-family: "BabelStone Han";
 	background-color: #666666;
 	font-size: 28px;
+}
+
+#toast-container {
+	font-size: 16px;
 }
 
 .zhrr-text {
