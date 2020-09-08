@@ -13,7 +13,9 @@ while (<TR>) {
 	$lookFor=$tr[0];
 	$replace1=$tr[1];
 	$replace2=$tr[2];
-	$html=~s#\|\=${lookFor}\=\|#<span class="zhrr-st" data-text="$replace1" data-alt="$replace2">$replace1</span>#g;
+	$replace3=$tr[3];
+	$text=$tr[3] || $tr[2];
+	$html=~s#\|\=${lookFor}\=\|#<span class="zhrr-st" data-text="$replace1" data-alt="$replace2" data-mobile="$replace3">$text</span>#g;
 }
 close TR;
 
