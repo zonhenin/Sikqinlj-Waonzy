@@ -25,7 +25,7 @@ function setPreferableFont() {
 		let nh=$('.zhrr-text').height();
 		if (oh==nh) {
 			setCompatibleFont();
-			toastr["error"]('载入专用字体失败。\n为正确显示所有专用吴语汉字，请使用电脑上的火狐浏览器，或<button type="button" id="download-font-button">下载专用字体</button>，並刷新页面。');
+			toastr["error"]('载入专用字体失败。\n为正确显示所有专用吴语汉字，请使用电脑上的火狐浏览器，或<button type="button" id="download-font-button">下载安装专用字体</button>，並刷新页面。');
 			$('#download-font-button').click(function() {
 				window.location.href = 'BabelStoneHan.ttf';
 			});
@@ -71,5 +71,6 @@ $(function() {
 		if (!mobile) {
 			setTimeout(wechat, 1000*60*5);
 		}
+		$('audio')[0].play();
 	});
 });
