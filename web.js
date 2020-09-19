@@ -65,7 +65,7 @@ $(function() {
 		}
 	}
 
-	$.blockUI({ message: $('#message-on-load'), css: { width: '30%' } });
+	$.blockUI({ message: $('#message-on-load'), css: { left: '25%', width: '50%' } });
 	$('#message-on-load-ok').click(function() { 
 		$.unblockUI();
 		if (!mobile) {
