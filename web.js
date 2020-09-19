@@ -64,8 +64,12 @@ $(function() {
 			setPreferableFont();
 		}
 	}
-	
-	if (!mobile) {
-		setTimeout(wechat, 1000*60*2);
-	}
+
+	$.blockUI({ message: $('#message-on-load'), css: { width: '30%' } });
+	$('#message-on-load-ok').click(function() { 
+		$.unblockUI();
+		if (!mobile) {
+			setTimeout(wechat, 1000*60*5);
+		}
+	});
 });

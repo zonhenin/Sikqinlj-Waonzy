@@ -3,6 +3,10 @@ body {
 	font-size: 54px;
 }
 
+input {
+	font-size: 48px;
+}
+
 #toast-container {
 	font-size: 42px;
 }
@@ -10,6 +14,9 @@ body {
 @media only screen and (min-device-width: 400px) {
 	body {
 		font-size: 36px;
+	}
+	input {
+		font-size: 32px;
 	}
 	#toast-container {
 		font-size: 24px;
@@ -19,6 +26,9 @@ body {
 @media only screen and (min-device-width: 1025px) {
 	body {
 		font-size: 28px;
+	}
+	input {
+		font-size: 24px;
 	}
 	#toast-container {
 		font-size: 16px;
