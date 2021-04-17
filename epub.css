@@ -1,12 +1,10 @@
 @font-face {
-font-family: "BabelStone Han";
-font-style: normal;
-font-weight: normal;
-src:url("BabelStoneHan.ttf");
+  font-family: noto;
+  src: url("../fonts/noto.otf");
 }
 
 body {
-	font-family: "BabelStone Han";
+	font-family: noto;
 	margin: 5%;
 	text-align: justify;
 	font-size: large;
