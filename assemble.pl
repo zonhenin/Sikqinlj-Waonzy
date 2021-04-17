@@ -6,7 +6,7 @@ $title=<SRC>;
 close SRC;
 $/ = "\n";
 
-open SRC, "< :encoding(UTF-8)", "tmp/web.html";
+open SRC, "< :encoding(UTF-8)", "tmp/text-styled.html";
 undef $/;
 $text=<SRC>;
 close SRC;
